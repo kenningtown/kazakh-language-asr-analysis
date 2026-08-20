@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Секреты
+.env
+
+# Данные, аудио, веса моделей, результаты — не тащим в git
+outputs/
+data/
+*.wav
+*.flac
+*.mp3
+*.pt
+*.bin
+*.ckpt
+
+# macOS
+.DS_Store
